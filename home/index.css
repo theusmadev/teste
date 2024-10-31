@@ -1,4 +1,50 @@
 body{
     background-color: rgb(03, 30, 57);
     color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.ulnav{
+    background-color:rgb(72, 15, 15);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+  
+
+.title {
+    float: right;
+    margin-top: 42px;
+    display: flex;
+    background-color: rgb(72, 15, 15);
+    padding: 10px;
+}
+
+footer {
+    background-color:rgb(72, 15, 15);
+    color: white;
+    padding: 20px;
+    position: sticky;
+    text-align: center;
+    margin-top: 400px;
+    height: auto;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#ulfooter{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
